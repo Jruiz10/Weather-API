@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/color"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        android:title="Color"
+        android:icon="@drawable/baseline_colorize_black_18dp"/>
+    <item
+        android:id="@+id/share"
+        android:orderInCategory ="2"
+        app:showAsAction= "ifRoom"
+        android:title="Share"
+        android:icon="@drawable/baseline_share_black_18dp"
+        />
+    <item
+        android:id="@+id/help"
+        android:title="Help"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_help_black_18dp"
+        />
+
+
+
+</menu>
